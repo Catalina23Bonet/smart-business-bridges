@@ -1,4 +1,3 @@
-
 import { ArrowRight, BarChart3, FileText, Database, Zap, MessageSquare, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -46,7 +45,7 @@ const Index = () => {
   ];
 
   const handleContactClick = () => {
-    window.open('https://wa.me/5491234567890?text=Hola! Me interesa conocer más sobre tus servicios de automatización', '_blank');
+    window.open('https://wa.me/54911243546?text=Hola! Me interesa conocer más sobre tus servicios de automatización', '_blank');
   };
 
   return (
