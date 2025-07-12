@@ -1,5 +1,3 @@
-
-
 import { ArrowRight, BarChart3, FileText, Database, Zap, MessageSquare, Mail, User, GraduationCap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -33,7 +31,7 @@ const Index = () => {
       ideal: "empresas que tienen formularios, listas, mails, Excel y necesitan consolidar datos",
       includes: "limpieza, unificación de archivos, categorización por interés, ubicación, historial, etc.",
       delivery: "un Excel limpio, con filtros y recomendaciones",
-      time: "3 a 5 días"
+      time: "una semana"
     },
     {
       icon: Zap,
@@ -42,7 +40,7 @@ const Index = () => {
       ideal: "personas o negocios que venden por Instagram, WhatsApp, formulario web o email",
       includes: "conexión con tu canal de venta, creación de una planilla automática y alertas si querés",
       delivery: "sistema funcionando y configurado",
-      time: "3 días"
+      time: "una semana"
     }
   ];
 
@@ -239,4 +237,3 @@ const Index = () => {
 };
 
 export default Index;
-
